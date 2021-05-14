@@ -13,7 +13,7 @@ Images are from Project
 ## 📸 ScreenShots
 
 |------|
-|<img src="s1.jpg" width="400">|
+|<img src="s1.png" width="600">|
 |------|
 
 
