@@ -124,7 +124,7 @@ void send_sms()
 {
   mySerial.println("AT+CMGF=1"); // Configuring TEXT mode
   updateSerial();
-  mySerial.println("AT+CMGS=\"8104066652\"\r\n");  //change ZZ with country code and xxxxxxxxxxx with phone number to sms
+  mySerial.println("AT+CMGS=\"xxxxxxxxxx\"\r\n");  //change xxxxxxxxxxx with phone number to sms
  updateSerial();
   mySerial.println("HELLO bins are full at ||  https://maps.app.goo.gl/sWHZG3zcFERV5Nn99");   //text content
   delay(1000);
@@ -144,14 +144,14 @@ void recv_sms()
 
 void send_alert()
  {
-  //mySerial.println("ATD+918104066652;"); //  change ZZ with country code and xxxxxxxxxxx with phone number to dial
+  //mySerial.println("ATD+zzxxxxxxxxxx;"); //  change ZZ with country code and xxxxxxxxxxx with phone number to dial
   //updateSerial();
   //delay(20000); // wait for 20 seconds...
   //mySerial.println("ATH"); //hang up
   //updateSerial();
    mySerial.println("AT+CMGF=1"); // Configuring TEXT mode
   updateSerial();
-  mySerial.println("AT+CMGS=\"8104066652\"\r\n");  //change ZZ with country code and xxxxxxxxxxx with phone number to sms
+  mySerial.println("AT+CMGS=\"xxxxxxxxxx\"\r\n");  //change ZZ with country code and xxxxxxxxxxx with phone number to sms
  updateSerial();
   mySerial.println("The bins are not yet cleaned at || https://maps.app.goo.gl/sWHZG3zcFERV5Nn99");   //text content
   delay(1000);
