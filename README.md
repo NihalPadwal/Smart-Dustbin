@@ -35,7 +35,7 @@ Images are from Project
 
 ## Getting Started
 
-This project is a uses Arduino 
+This project uses Arduino 
 
 Arduino is an open-source hardware and software company, project and user community that designs and 
 manufactures single-board microcontrollers and microcontroller kits for building digital devices.
